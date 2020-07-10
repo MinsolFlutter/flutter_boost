@@ -74,7 +74,7 @@ public class BoostHelper {
                         PageRouter.openPageByUrl(MyApplication.getContext(), PageRouter.NativePage, params);
                     }
                 });
-
+                
                 // 注册MethodChannel，监听flutter侧的getPlatformVersion调用
 //                MethodChannel methodChannel = new MethodChannel(FlutterBoost.instance().engineProvider().getDartExecutor(), "flutter_native_channel");
 //                methodChannel.setMethodCallHandler((call, result) -> {
