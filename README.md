@@ -50,7 +50,7 @@
     └── test
 ```
 
-#### Flutter Model
+#### Flutter Module
 
 ##### 添加依赖
 ```Dart
