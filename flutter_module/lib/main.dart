@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
     _streamSubscription = _eventChannelPlugin
         .receiveBroadcastStream('123')
         .listen(_onToDart, onError: _onToDartError);
-    //使用BasicMessageChannel接受来自Native的消息，并向Native回复
+    ///使用BasicMessageChannel接受来自Native的消息，并向Native回复
     _basicMessageChannel
         .setMessageHandler((String message) => Future<String>(() {
               setState(() {
