@@ -3,15 +3,8 @@ import 'dart:ui';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import './flutter_boost/flutter_boost_app.dart';
 
-//void main() => runApp(MyApp(initParams: window.defaultRouteName,));
-//void main() => runApp(_widgetForRoute(window.defaultRouteName));
-
-///通过flutter_boost创建  版本不支持
-void main() => runApp(NewApp());
-
-
+void main() => runApp(_widgetForRoute(window.defaultRouteName));
 
 ///通过初始化参数创建
 Widget _widgetForRoute(String url) {
@@ -22,7 +15,7 @@ Widget _widgetForRoute(String url) {
   String paramsJson = url.indexOf('?') == -1 ? '{}' : url.substring(url.indexOf('?') + 1);
   Map<String, dynamic> mapJson = json.decode(paramsJson);
   String message = mapJson["message"];
-
+  print('$message');
 // 解析参数
   switch (route) {
     case 'route1':

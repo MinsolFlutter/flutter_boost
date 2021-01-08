@@ -40,12 +40,5 @@
     NSString * text=((UITextField*)sender).text;
     [[NSNotificationCenter defaultCenter] postNotificationName:@"sendMessage" object:@{@"message": text, @"channelType":self.channelType}];
 }
-- (void)handleButtonAction {
-    //以一个完整页面打开Flutter模块
-    FlutterViewController *flutterViewController = [FlutterViewController new];
-    [flutterViewController setInitialRoute:@"{name:'devio',dataList:['aa','bb',''cc]}"];
-    [self presentViewController:flutterViewController animated:true completion:nil];
-    self.view=flutterViewController.view;
-}
 
 @end

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8D88D5F849DA2A2F1B78B39F /* libPods-flutter-boost-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4567B1D9D305E41B5CE2276C /* libPods-flutter-boost-ios.a */; };
-		C696CE0024B6C35B00BFEAA4 /* NativeBoostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C696CDFF24B6C35B00BFEAA4 /* NativeBoostViewController.m */; };
 		C6EE8D0E24737F04004DB4D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D0D24737F04004DB4D3 /* AppDelegate.m */; };
 		C6EE8D1124737F04004DB4D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D1024737F04004DB4D3 /* SceneDelegate.m */; };
 		C6EE8D1424737F04004DB4D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D1324737F04004DB4D3 /* ViewController.m */; };
@@ -16,9 +15,6 @@
 		C6EE8D1924737F08004DB4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EE8D1824737F08004DB4D3 /* Assets.xcassets */; };
 		C6EE8D1C24737F08004DB4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EE8D1A24737F08004DB4D3 /* LaunchScreen.storyboard */; };
 		C6EE8D1F24737F08004DB4D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D1E24737F08004DB4D3 /* main.m */; };
-		C6EE8D2B2473822D004DB4D3 /* WPFlutterRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D252473822D004DB4D3 /* WPFlutterRouter.m */; };
-		C6EE8D2C2473822D004DB4D3 /* WPFlutterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D292473822D004DB4D3 /* WPFlutterManager.m */; };
-		C6EE8D2D2473822D004DB4D3 /* WPFlutterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D2A2473822D004DB4D3 /* WPFlutterBaseViewController.m */; };
 		C6EE8D3124738E0F004DB4D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D2F24738E0F004DB4D3 /* MainViewController.m */; };
 		C6EE8D3424738E34004DB4D3 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8D3324738E34004DB4D3 /* NativeViewController.m */; };
 /* End PBXBuildFile section */
@@ -26,8 +22,6 @@
 /* Begin PBXFileReference section */
 		4567B1D9D305E41B5CE2276C /* libPods-flutter-boost-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flutter-boost-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCFECF24913687754BAA04C /* Pods-flutter-boost-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter-boost-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-flutter-boost-ios/Pods-flutter-boost-ios.release.xcconfig"; sourceTree = "<group>"; };
-		C696CDFE24B6C35B00BFEAA4 /* NativeBoostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeBoostViewController.h; sourceTree = "<group>"; };
-		C696CDFF24B6C35B00BFEAA4 /* NativeBoostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeBoostViewController.m; sourceTree = "<group>"; };
 		C6EE8D0924737F04004DB4D3 /* flutter-boost-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flutter-boost-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EE8D0C24737F04004DB4D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6EE8D0D24737F04004DB4D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,12 +34,6 @@
 		C6EE8D1B24737F08004DB4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EE8D1D24737F08004DB4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EE8D1E24737F08004DB4D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C6EE8D252473822D004DB4D3 /* WPFlutterRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFlutterRouter.m; sourceTree = "<group>"; };
-		C6EE8D262473822D004DB4D3 /* WPFlutterBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFlutterBaseViewController.h; sourceTree = "<group>"; };
-		C6EE8D272473822D004DB4D3 /* WPFlutterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFlutterManager.h; sourceTree = "<group>"; };
-		C6EE8D282473822D004DB4D3 /* WPFlutterRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFlutterRouter.h; sourceTree = "<group>"; };
-		C6EE8D292473822D004DB4D3 /* WPFlutterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFlutterManager.m; sourceTree = "<group>"; };
-		C6EE8D2A2473822D004DB4D3 /* WPFlutterBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFlutterBaseViewController.m; sourceTree = "<group>"; };
 		C6EE8D2F24738E0F004DB4D3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C6EE8D3024738E0F004DB4D3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C6EE8D3224738E34004DB4D3 /* NativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
@@ -103,7 +91,6 @@
 		C6EE8D0B24737F04004DB4D3 /* flutter-boost-ios */ = {
 			isa = PBXGroup;
 			children = (
-				C6EE8D2E24738230004DB4D3 /* FlutterBoost */,
 				C6EE8D0C24737F04004DB4D3 /* AppDelegate.h */,
 				C6EE8D0D24737F04004DB4D3 /* AppDelegate.m */,
 				C6EE8D0F24737F04004DB4D3 /* SceneDelegate.h */,
@@ -114,8 +101,6 @@
 				C6EE8D2F24738E0F004DB4D3 /* MainViewController.m */,
 				C6EE8D3224738E34004DB4D3 /* NativeViewController.h */,
 				C6EE8D3324738E34004DB4D3 /* NativeViewController.m */,
-				C696CDFE24B6C35B00BFEAA4 /* NativeBoostViewController.h */,
-				C696CDFF24B6C35B00BFEAA4 /* NativeBoostViewController.m */,
 				C6EE8D1524737F04004DB4D3 /* Main.storyboard */,
 				C6EE8D1824737F08004DB4D3 /* Assets.xcassets */,
 				C6EE8D1A24737F08004DB4D3 /* LaunchScreen.storyboard */,
@@ -123,19 +108,6 @@
 				C6EE8D1E24737F08004DB4D3 /* main.m */,
 			);
 			path = "flutter-boost-ios";
-			sourceTree = "<group>";
-		};
-		C6EE8D2E24738230004DB4D3 /* FlutterBoost */ = {
-			isa = PBXGroup;
-			children = (
-				C6EE8D272473822D004DB4D3 /* WPFlutterManager.h */,
-				C6EE8D292473822D004DB4D3 /* WPFlutterManager.m */,
-				C6EE8D282473822D004DB4D3 /* WPFlutterRouter.h */,
-				C6EE8D252473822D004DB4D3 /* WPFlutterRouter.m */,
-				C6EE8D262473822D004DB4D3 /* WPFlutterBaseViewController.h */,
-				C6EE8D2A2473822D004DB4D3 /* WPFlutterBaseViewController.m */,
-			);
-			path = FlutterBoost;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,14 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EE8D1424737F04004DB4D3 /* ViewController.m in Sources */,
-				C696CE0024B6C35B00BFEAA4 /* NativeBoostViewController.m in Sources */,
-				C6EE8D2C2473822D004DB4D3 /* WPFlutterManager.m in Sources */,
 				C6EE8D0E24737F04004DB4D3 /* AppDelegate.m in Sources */,
 				C6EE8D3124738E0F004DB4D3 /* MainViewController.m in Sources */,
-				C6EE8D2D2473822D004DB4D3 /* WPFlutterBaseViewController.m in Sources */,
 				C6EE8D1F24737F08004DB4D3 /* main.m in Sources */,
 				C6EE8D1124737F04004DB4D3 /* SceneDelegate.m in Sources */,
-				C6EE8D2B2473822D004DB4D3 /* WPFlutterRouter.m in Sources */,
 				C6EE8D3424738E34004DB4D3 /* NativeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

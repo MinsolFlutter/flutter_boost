@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WPFlutterManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[WPFlutterManager sharedManager] setupFlutter];
-
     return YES;
 }
 
