@@ -24,14 +24,6 @@
                                     <segue destination="9QK-KZ-8H8" kind="show" id="Kl6-wA-cYq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSP-je-8HB">
-                                <rect key="frame" x="98" y="332" width="106" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="打开Flutter界面"/>
-                                <connections>
-                                    <action selector="flutterButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jGu-lv-sXz"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

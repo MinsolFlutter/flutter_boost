@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Flutter/Flutter.h>
+#import "ViewController.h"
 @interface AppDelegate ()
+
 
 @end
 
@@ -16,25 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    //以一个完整页面打开Flutter模块
+//    FlutterViewController *flutterViewController = [FlutterViewController new];
+//    NSError *parseError = nil;
+//    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:@{@"message":@"hahahah"} options:NSJSONWritingPrettyPrinted error:&parseError];
+//    NSString *message =  [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+//    [flutterViewController setInitialRoute:[@"rootFlutterView?" stringByAppendingString:message]];
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.rootViewController = flutterViewController;
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+    
+    ///main.storyboard 打开
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
-}
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
 
 
 @end

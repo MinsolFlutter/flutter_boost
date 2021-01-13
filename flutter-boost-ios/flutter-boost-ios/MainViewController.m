@@ -30,7 +30,7 @@
         ///通过指定路由
 //        [self.flutterViewController setInitialRoute:@"route1?{\"message\":\"原生传参给flutter页面通过指定路由打开界面\"}"];
         ///默认打开
-        [self.flutterViewController setInitialRoute:@"root"];
+        [self.flutterViewController setInitialRoute:@"hybridFlutterView"];
 
         ///初始化通信相关
         [self initChannel];

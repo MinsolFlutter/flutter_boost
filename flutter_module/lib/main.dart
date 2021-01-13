@@ -18,17 +18,17 @@ Widget _widgetForRoute(String url) {
   print('$message');
 // 解析参数
   switch (route) {
-    case 'route1':
+    case 'rootFlutterView':
       return MaterialApp(
         home: Scaffold(
           appBar: AppBar(
             title: Text('Flutter页面'),
           ),
-          body: Center(child: Text(message),)
+          body: Container(color: Colors.white,child: Center(child: Text(message ?? '')))
         ),
       );
       break;
-    case 'root':
+    case 'hybridFlutterView':
       return MyApp(initParams:url);
       break;
     default:
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title, this.initParams}) : super(key: key);
+  MyHomePage({Key key, this.title , this.initParams}) : super(key: key);
 
   final String title;
   final String initParams;
