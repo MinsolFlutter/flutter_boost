@@ -12,3 +12,5 @@
 /captures
 .externalNativeBuild
 .cxx
+/flutter_lib/ios_frameworks
+/flutter_module/ios_frameworks

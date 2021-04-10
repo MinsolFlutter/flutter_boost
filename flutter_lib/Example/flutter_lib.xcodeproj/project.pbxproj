@@ -214,11 +214,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-flutter_lib_Tests/Pods-flutter_lib_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/flutter_lib/flutter_lib.framework",
+				"${PODS_ROOT}/../../ios_frameworks/App.framework",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+				"${PODS_ROOT}/../../ios_frameworks/flutter_boost.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_lib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
